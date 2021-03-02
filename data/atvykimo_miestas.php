@@ -1,0 +1,9 @@
+<?php
+$atvykimas=[
+    'Amsterdamas',
+    'Lietuva',
+    'Estija',
+    'Rusija',
+    'JAV'
+];
+?>

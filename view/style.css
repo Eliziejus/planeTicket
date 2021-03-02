@@ -1,0 +1,56 @@
+.container{
+    width: 100%;
+}
+.form-group{
+    display: block;
+    width: 150px;
+    height: 80px;
+    padding: 10px;
+    margin: 10px
+
+}
+.form-group1{
+    display: block;
+    width: 150px;
+    height: 80px;
+    padding: 10px;
+    margin: 10px
+}
+.form-control1{
+    border-radius: 8px;
+    border-width: 2 px;
+    border-color: black;
+    width: 600px;
+    height: 40px;
+    padding: 10px;
+}
+.form-control{
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: black;
+    width: 620px;
+    padding: 10px;
+    height: 40px;
+}
+.button{
+    color: white;
+    background-color: brown;
+    width: 100px;
+    height: 65px;
+    border-radius: 8px;
+}
+.small{
+    color: green;
+}
+.hello{
+/* display: flex; */
+justify-content: center;
+align-items: center;
+}
+table,tr,th{
+    margin: 3px;
+    border:1px solid black;
+    width: 50%;
+    height: 50px;
+
+}

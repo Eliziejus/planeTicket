@@ -2,7 +2,7 @@
 
 function validate($data){
     $validation= array();
-    $pastabaBool = !preg_match('/^[a-zA-Z0-9\s,.:$!?-]{50,1000}$/', $_POST['message']);
+    $pastabaBool = !preg_match('/^[a-zA-Z0-9\s,.:$!?-]{1,1000}$/', $_POST['message']);
     $asmenskodasBool = !preg_match('/\d{11}/', $_POST['code']);
     $vardasBool = !preg_match('/\A[A-Z][a-z]{1,100}/', $_POST['name']);
     $pavardeBool = !preg_match('/\A[A-Z][a-z]{1,100}/', $_POST['lastname']);
